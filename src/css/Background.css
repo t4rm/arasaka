@@ -1,0 +1,22 @@
+.main-bg {
+    width: 100%;
+    font-size: 13.6vw;
+    text-wrap: nowrap;
+    margin-top: 20px;
+    transform: scale(1, 1.5);
+    position: absolute;
+    left: 0;
+    display: flex;
+    z-index: -1;
+}
+.main-bg > * {
+    display: inline;
+    background: linear-gradient(.25turn, #000000, #131313);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-bg-corp {
+    font-size: 5vw;
+}

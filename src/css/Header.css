@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+}
+
+header > * {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+}
+
+.header-nav {
+    list-style-type: none;
+    font-size: 19px;
+}
+
+.header-nav.secondary {
+    font-size: 17px;
+    text-wrap: nowrap;
+}
+
+.header-nav > ul > li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.header-logo {
+    max-height: 100px;
+    filter: brightness(50);
+}
+
+.header-nav-container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 12px;
+}
+
+.bourse-container {
+    border-radius: 35%;
+    font-size: 14px;
+}
+
+.bourse-name {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.bourse-fluctuation {
+    color: rgba(82, 172, 68, 0.7);
+}

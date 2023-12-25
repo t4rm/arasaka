@@ -1,0 +1,14 @@
+    const dress = useRef();
+
+    function onLoad(spline) {
+        const obj = spline.findObjectByName('dress');
+        dress.current = obj;
+    }
+
+    <div>
+    <Spline
+        scene="https://prod.spline.design/vUvZcGM1CNDUN0-U/scene.splinecode"
+        onLoad={onLoad}
+    />
+</div>
+
