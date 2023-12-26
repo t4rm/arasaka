@@ -5,7 +5,10 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 15%;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 100;
 }
 
 header > * {
@@ -21,7 +24,6 @@ header > * {
 
 .header-nav.secondary {
     font-size: 17px;
-    text-wrap: nowrap;
 }
 
 .header-nav > ul > li {
@@ -30,8 +32,8 @@ header > * {
 }
 
 .header-logo {
+    max-width: 300px;
     max-height: 100px;
-    filter: brightness(50);
 }
 
 .header-nav-container {

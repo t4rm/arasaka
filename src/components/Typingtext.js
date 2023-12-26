@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import "../css/loading.css";
 
 const Typingtext = () => {
     let [percent, setPercent] = useState(0);
@@ -39,7 +40,7 @@ const Typingtext = () => {
 
     return (
         <>
-            <p className='line-1 anim-typewriter'><span className='loading-dir-text'>WELCOME TO //:</span> THE LATEST ADVANCEMENT IN PREMIUM DIGITAL FASHION</p>
+            <p className='line-1 typed-text carpet anim-typewriter'><span className='loading-dir-text'>WELCOME TO //:</span> THE LATEST ADVANCEMENT IN PREMIUM DIGITAL FASHION</p>
             <p className='loading-percent'>{percent}%</p>
         </>
     );

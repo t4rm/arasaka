@@ -1,5 +1,48 @@
 main {
-    height: 90vh;
+    height: fit-content;
+}
+.main-container {
     display: flex;
     flex-direction: row;
+    position: relative;
+}
+
+aside {
+    position: absolute;
+    right: -30px;
+    top: 333px;
+    align-self: center;
+    width: 22.5rem;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    inset: 0;
+    top: 30%;
+    width: 30%;
+}
+
+#arasaka-welcome-title {
+    letter-spacing: 3px;
+}
+
+.aside-aboutus {
+    position: absolute;
+    bottom: -200px;
+    right: -30px;
+}
+
+.section-content {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 50px;
+}
+
+.section-container-3d > img {
+    max-width: 800px;
+    height: auto;
 }

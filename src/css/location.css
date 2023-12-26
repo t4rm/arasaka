@@ -1,0 +1,23 @@
+.location-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-container > h1 {
+    margin: 100px;
+}
+
+.location-container > p {
+    margin-bottom: 100px;
+}
+
+.location-item {
+    border-top: 1px solid rgba(255, 255, 255, 0.7);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0 100px 0;
+}
+
+.special-features {
+    font-style: italic;
+}

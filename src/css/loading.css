@@ -6,17 +6,11 @@
 .line-1 {
   position: relative;
   top: 50%;
-  width: 20.18em;
-  margin: 0 auto;
-  border-right: 2px solid rgba(255, 255, 255, .75);
   font-size: 180%;
+  margin: 0 auto;
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
 }
 
 .anim-typewriter {
@@ -30,4 +24,16 @@
 
 .loading-percent {
     color: rgb(42, 156, 42);
+}
+
+.typed-text {
+  width: 20.18em;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.typed-text.carpet {
+  border-right: 2px solid rgba(255, 255, 255, .75);
 }
