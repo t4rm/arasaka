@@ -112,3 +112,62 @@ export const arasakaOfficesLocation = [
         specialFeatures: "Market Expansion Strategy; Cultural Exchange Programs"
     },
 ];
+
+export const flashNews = {
+    id: 1,
+    title: "Arasaka: The Security of the Future at Your Fingertips",
+    summary: "Arasaka, the global leader in security, offers revolutionary home security technology. With holograms equipped with artificial intelligence to monitor your home, Arasaka promises peaceful sleep even in the most hostile environments. Join the elite who have chosen Arasaka, your shield in this chaotic world.",
+    fullDescription: "In a world where danger is omnipresent and insecurity a daily reality, Arasaka stands as the ultimate bulwark to protect what you hold most precious. Our home security technology, illustrated here, is a powerful demonstration of our unwavering commitment to your safety.<br/><br/>Imagine a system where holographic projections serve as your guardians, their presence alone acting as a deterrent to any potential threats. This is Arasaka&#8217;s promise - a peaceful sleep even in the most hostile environments.<br/><br/>Our patented technology uses highly responsive holograms equipped with the latest innovations in artificial intelligence. They are programmed to detect, assess, and respond to threats in real time. Your security is not just guaranteed; it is symbolized by an imposing force that watches over you.<br/><br/>Join the elite who have chosen Arasaka and sleep peacefully, knowing that we are on guard. We are not just a company; we are your shield in this chaotic world.",
+    thumbnail: "./assets/images/news/arasaka-banner-3.jpg",
+    date: "25 DEC 2077"
+}
+
+export const backgroundNews = [
+    {
+        id: 2,
+        title: "Factories fastest pace ever",
+        summary: "Lorem ipsum",
+        fullDescription: "Lorem",
+        thumbnail: "./assets/images/news/arasaka-banner-warehouse.webp",
+        date: "13 DEC 2077"
+    },
+    {
+        id: 3,
+        title: "Scientific breakthrough",
+        summary: "Lorem ipsum",
+        fullDescription: "Lorem",
+        thumbnail: "./assets/images/news/arasaka-banner-space.jpg",
+        date: "4 DEC 2077"
+    },
+    {
+        id: 4,
+        title: "Newest AI-Assisted Turret",
+        summary: "Lorem ipsum",
+        fullDescription: "Lorem",
+        thumbnail: "./assets/images/news/arasaka-banner-turret.jpeg",
+        date: "19 NOV 2077"
+    }
+]
+
+export const pressReleases = [
+    {
+        id: 5,
+        title: "Arasaka's expands its Empire: Strategic Acquisition of Neotech Dynamics Ushers in a New Era of Technological Synergy",
+        summary: "Arasaka Corporation acquires Neotech Dynamics, a leader in AI and quantum computing, significantly enhancing its tech portfolio and solidifying its position as a global tech powerhouse...",
+        fullDescription: "Lorem",
+        date: "06 DEC 2077"
+    }, {
+        id: 6,
+        title: "Arasaka's Global Impact: Shaping a Safer, More Advanced Future",
+        summary: "Arasaka's investment in cybersecurity, urban infrastructure, and AI is revolutionizing urban safety and efficiency, driving global smart city development and heralding a new era in urban living...",
+        fullDescription: "Lorem",
+        date: "12 DEC 2077"
+    },
+    {
+        id: 7,
+        title: "Arasaka's Innovation Leads the Way: A New Dawn in Cybersecurity and Technology",
+        summary: "Arasaka leads a tech revolution with innovations in neural networks, cybernetics, and encryption, enhancing global cybersecurity and integrating advanced technology into daily life...",
+        fullDescription: "Lorem",
+        date: "18 DEC 2077"
+    },
+]

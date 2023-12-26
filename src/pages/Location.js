@@ -33,8 +33,8 @@ const Location = () => {
     });
 
     return (
-        <main className='location-container'>
-            <h1 id='location-header' className='very-very-large'></h1>
+        <main className='section-container'>
+            <h1 id='location-header' className='very-very-large'>&#8203;</h1>
             <p id='location-paragraph' className='large'></p>
             <div id='location-items-container'>
                 {data["locations"].map((location, index) => (

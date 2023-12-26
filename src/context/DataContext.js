@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { arasakaOfficesLocation } from "./data";
+import { arasakaOfficesLocation, backgroundNews, flashNews, pressReleases } from "./data";
 
 const DataContext = createContext();
 
@@ -11,6 +11,7 @@ export const DataProvider = ({ children }) => {
     
     var tl = new gsap.timeline({paused: true});
     var tlLoca = new gsap.timeline({paused: true});
+    var tlNews = new gsap.timeline({paused: true});
     var tlScrollSecurity = gsap.timeline({
         scrollTrigger: {
             trigger: "#security-h3",
@@ -18,7 +19,7 @@ export const DataProvider = ({ children }) => {
         },
     });
 
-    const [data] = useState({tl: tl, tlLoca: tlLoca, tlSecu: tlScrollSecurity, locations: arasakaOfficesLocation});
+    const [data] = useState({tl: tl, tlLoca: tlLoca, tlNews: tlNews, tlSecu: tlScrollSecurity, locations: arasakaOfficesLocation, flashNews: flashNews, backgroundNews: backgroundNews, pressReleases: pressReleases});
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

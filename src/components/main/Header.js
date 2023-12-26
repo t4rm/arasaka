@@ -46,7 +46,7 @@ const Header = () => {
                     <ul>
                         <li><Link id="about" to="/about"></Link></li>
                         <li><Link id="approach" to="/approach"></Link></li>
-                        <li><Link id="news" to="/news"></Link></li>
+                        <li><Link id="news" to="/newsroom"></Link></li>
                         <li><Link id="science" to="/science"></Link></li>
                     </ul>
                 </nav>

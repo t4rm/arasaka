@@ -36,14 +36,11 @@ html {
 }
 
 a {
-  color: rgba(255, 255, 255, .75);
+  color: var(--cyber-silver);
   text-decoration: none;
 }
 
-a:hover {
-  color: rgba(255, 255, 255, 0.90);
-  text-decoration: underline;
-}
+
 
 ::-webkit-scrollbar {
   display: none;
@@ -89,10 +86,11 @@ a.title:hover {
   font-size: 30px;
 }
 
+/* Stairs : */
 .stairs-disposition {
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: flex-end;
   width: fit-content;
 }
 
@@ -103,4 +101,52 @@ a.title:hover {
 .section-title {
   display: flex;
   flex-direction: row;
+}
+
+/* Sections : */
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container > h1 {
+  margin: 100px;
+}
+
+.section-container > p {
+  margin-bottom: 100px;
+}
+
+/* Flex : */
+.flex {
+  display: flex;
+}
+.col {
+  flex-direction: column;
+}
+.center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* Spacing */
+.espace.top {
+  margin-top: 50px;
+}
+
+.espace.bot {
+  margin-bottom: 50px;
+}
+
+.espace.top-1 {
+  margin-top: 10px;
+}
+.espace.bot-1 {
+  margin-bottom: 10px;
+}
+
+.espace.bot-3 {
+  margin-bottom: 30px;
 }
