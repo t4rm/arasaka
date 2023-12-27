@@ -7,6 +7,7 @@ import Home from './Home';
 import About from './About';
 import Location from './Location';
 import News from './News';
+import NewsItem from "../components/secondary/NewsItem";
 import NoMatch from './NoMatch';
 import "../css/layout.css"
 import { useDataContext } from '../context/DataContext';
@@ -48,6 +49,7 @@ const Layout = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/location" element={<Location />} />
                 <Route path="/newsroom" element={<News />} />
+                <Route path="/news/article/:id" element={<NewsItem/>} />
                 <Route path="*" element={<NoMatch />} />
             </Routes>
             {/* <Footer/> */}

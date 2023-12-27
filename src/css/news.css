@@ -58,3 +58,25 @@
 .mediacenter-container > *{
  width: 50%;
 }
+
+.news-full-image {
+    width: 100vw;
+    height: 45vh;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.news-description {
+    margin-top: 52vh;
+}
+.news-full-image > img {
+    width: 100%;
+}
+
+.news-description-content {
+    width: 60%;
+    margin-left: auto;
+}

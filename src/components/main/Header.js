@@ -40,7 +40,7 @@ const Header = () => {
 
     return (
         <header>
-            <Link to="/"><img src='./assets/images/arasaka-logo.png' className='header-logo' alt='Arasaka Logo (Index)' /></Link>
+            <Link to="/"><img src='/assets/images/arasaka-logo.png' className='header-logo' alt='Arasaka Logo (Index)' /></Link>
             <div className='header-nav-container'>
                 <nav className='header-nav'>
                     <ul>

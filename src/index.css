@@ -24,6 +24,7 @@ body {
 * {
   margin: 0;
   user-select: none;
+  white-space: pre-line;
 }
 
 code {
@@ -42,16 +43,36 @@ a {
 
 
 
+/* width */
 ::-webkit-scrollbar {
-  display: none;
+  width: 10px;
 }
 
-.html {
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
+/* Track */
+::-webkit-scrollbar-track {
+  background: #070606;
 }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0f0f0f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #181818;
+}
+
+/* Scrollbar for Figures : */
+
+figure::-webkit-scrollbar-track {
+  background: #202020;
+}
+
+figure::-webkit-scrollbar-thumb {
+  background: #424242;
+}
+
 
 /* Color palette : */
 
