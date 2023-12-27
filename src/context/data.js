@@ -142,7 +142,8 @@ export const backgroundNews = [
         ],
         thumbnail: "/assets/images/news/arasaka-banner-warehouse.webp",
         date: "13 DEC 2077",
-        citation: "“Through relentless innovation and a commitment to excellence, Arasaka's manufacturing facilities have achieved unprecedented production speeds, setting new industrial benchmarks for the 21st century and reinforcing our position as the undisputed leader in the technology sector.”\n- Hiroshi Sakamoto, Director of Industrial Operations, Arasaka Corporation"
+        citation: "Through relentless innovation and a commitment to excellence, Arasaka's manufacturing facilities have achieved unprecedented production speeds, setting new industrial benchmarks for the 21st century and reinforcing our position as the undisputed leader in the technology sector.",
+        citationAuthor: "Hiroshi Sakamoto, Director of Industrial Operations, Arasaka Corporation"
     },
     {
         id: 3,
@@ -175,7 +176,9 @@ export const backgroundNews = [
         ],
         thumbnail: "/assets/images/news/arasaka-banner-space.jpg",
         date: "4 DEC 2077",
-        citation: "“Pushing the frontiers of knowledge and innovation, Arasaka's space research station stands as a testament to our unyielding pursuit of scientific advancement and interstellar exploration, heralding a new era of discovery beyond the confines of Earth.”\n- Dr. Yuna Takahashi, Lead Scientist, Arasaka Space Research Division"
+        citation: "Pushing the frontiers of knowledge and innovation, Arasaka's space research station stands as a testament to our unyielding pursuit of scientific advancement and interstellar exploration, heralding a new era of discovery beyond the confines of Earth.",
+        citationAuthor: "Dr. Yuna Takahashi, Lead Scientist, Arasaka Space Research Division"
+
     },
     {
         id: 4,
@@ -212,7 +215,9 @@ export const backgroundNews = [
         ],
         thumbnail: "/assets/images/news/arasaka-banner-ship.jpg",
         date: "19 NOV 2077",
-        citation: "“In a world where the need for global security is ever-evolving, the Arasaka Aircraft Carrier stands as a formidable symbol of strength and innovation, projecting peace and protection across the seas.”\n- Hideo Fujimoto, Vice President of Naval Operations, Arasaka Corporation"
+        citation: "In a world where the need for global security is ever-evolving, the Arasaka Aircraft Carrier stands as a formidable symbol of strength and innovation, projecting peace and protection across the seas.",
+        citationAuthor: "Hideo Fujimoto, Vice President of Naval Operations, Arasaka Corporation"
+
     }
 ]
 
