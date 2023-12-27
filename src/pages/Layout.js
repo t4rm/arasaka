@@ -11,6 +11,7 @@ import NewsItem from "../components/secondary/NewsItem";
 import NoMatch from './NoMatch';
 import "../css/layout.css"
 import { useDataContext } from '../context/DataContext';
+import PressItem from '../components/secondary/PressItem';
 
 const Layout = () => {
     const { data } = useDataContext();
@@ -19,9 +20,9 @@ const Layout = () => {
     useEffect(() => {
 
         // Home :
-        // if (location.pathname === '/') {
-            data["tl"].play();
-        // }
+        if (location.pathname === '/') {
+        data["tl"].play(5);
+        } data["tl"].play();
         
         // Locations :
         if (location.pathname === '/location') {
@@ -50,6 +51,7 @@ const Layout = () => {
                 <Route path="/location" element={<Location />} />
                 <Route path="/newsroom" element={<News />} />
                 <Route path="/news/article/:id" element={<NewsItem/>} />
+                <Route path="/news/press/:id" element={<PressItem/>} />
                 <Route path="*" element={<NoMatch />} />
             </Routes>
             {/* <Footer/> */}

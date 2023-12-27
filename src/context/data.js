@@ -226,20 +226,20 @@ export const pressReleases = [
         id: 5,
         title: "Arasaka's expands its Empire: Strategic Acquisition of Neotech Dynamics Ushers in a New Era of Technological Synergy",
         summary: "Arasaka Corporation acquires Neotech Dynamics, a leader in AI and quantum computing, significantly enhancing its tech portfolio and solidifying its position as a global tech powerhouse...",
-        fullDescription: "Lorem",
+        fullDescription: "Arasaka Corporation's recent acquisition of Neotech Dynamics, a renowned player in AI and quantum computing, marks a monumental stride in its expansion and diversification strategy. This strategic move not only broadens Arasaka's technological horizons but also consolidates its standing as a dominant force in the global tech arena. The integration of Neotech Dynamics' cutting-edge research and innovations in AI and quantum technology into Arasaka's extensive portfolio paves the way for groundbreaking advancements in cybersecurity, data analysis, and computational power. This acquisition is a clear indication of Arasaka's commitment to maintaining its edge in technological innovation and its vision for a future where technology and security converge for the betterment of society.",
         date: "06 DEC 2077"
     }, {
         id: 6,
         title: "Arasaka's Global Impact: Shaping a Safer, More Advanced Future",
         summary: "Arasaka's investment in cybersecurity, urban infrastructure, and AI is revolutionizing urban safety and efficiency, driving global smart city development and heralding a new era in urban living...",
-        fullDescription: "Lorem",
+        fullDescription: "Arasaka's substantial investment in cybersecurity, urban infrastructure, and artificial intelligence is catalyzing a transformative shift in urban safety and efficiency. This strategic initiative is at the heart of driving global smart city development, heralding a new era in urban living. By integrating cutting-edge AI technologies into the fabric of city infrastructure, Arasaka is not only enhancing the security and resilience of urban environments but also significantly improving their operational efficiency. This approach promises a smarter, more sustainable urban future, where technology-driven solutions lead to safer, more connected, and efficient cities. Arasaka's vision and efforts in this domain underscore its commitment to pioneering innovations that shape the future of urbanization and enhance the quality of life for people around the world.",
         date: "12 DEC 2077"
     },
     {
         id: 7,
         title: "Arasaka's Innovation Leads the Way: A New Dawn in Cybersecurity and Technology",
         summary: "Arasaka leads a tech revolution with innovations in neural networks, cybernetics, and encryption, enhancing global cybersecurity and integrating advanced technology into daily life...",
-        fullDescription: "Lorem",
+        fullDescription: "Arasaka is once again at the forefront of a technological revolution, this time with groundbreaking advancements in neural networks, cybernetics, and encryption. These innovations are set to redefine global cybersecurity standards and seamlessly integrate advanced technology into everyday life. By pushing the boundaries of neural interfacing and cybernetic enhancements, Arasaka is not only enhancing human-machine interaction but also revolutionizing the way we approach personal and national security. Their state-of-the-art encryption techniques are poised to offer unprecedented levels of data protection, reflecting Arasaka's commitment to safeguarding digital integrity in an increasingly interconnected world. This trailblazing journey underscores Arasaka's role as a catalyst for technological evolution, further cementing its status as a visionary leader in the global tech industry.",
         date: "18 DEC 2077"
     },
 ]

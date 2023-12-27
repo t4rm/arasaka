@@ -80,3 +80,8 @@
     width: 60%;
     margin-left: auto;
 }
+
+.press-content {
+    position: relative;
+    top: 46vh;
+}
