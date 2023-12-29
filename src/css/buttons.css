@@ -1,0 +1,18 @@
+button {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--neon-red);
+    border: 1px solid var(--neon-red);
+    cursor: pointer;
+    transition: cubic-bezier(0.64, 0.57, 0.67, 1.53) .5s;
+}
+
+button:hover {
+    background-color: var(--neon-red);
+    color: rgba(0, 0, 0);
+    border: 1px solid rgba(0, 0, );
+}
+
+.large-button {
+    padding: 50px;
+}
