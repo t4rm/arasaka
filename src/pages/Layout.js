@@ -7,6 +7,8 @@ import Home from './Home';
 import About from './About';
 import Location from './Location';
 import News from './News';
+import Careers from './Careers';
+import Jobsearch from './careers/Jobsearch';
 import NewsItem from "../components/secondary/NewsItem";
 import NoMatch from './NoMatch';
 import "../css/layout.css"
@@ -21,8 +23,8 @@ const Layout = () => {
 
         // Home :
         if (location.pathname === '/') {
-        data["tl"].play(5);
-        } data["tl"].play();
+        data["tl"].play();
+        } else data["tl"].play(7);
         
         // Locations :
         if (location.pathname === '/location') {
@@ -52,6 +54,8 @@ const Layout = () => {
                 <Route path="/newsroom" element={<News />} />
                 <Route path="/news/article/:id" element={<NewsItem/>} />
                 <Route path="/news/press/:id" element={<PressItem/>} />
+                <Route path="/careers" element={<Careers />} />
+                <Route path="/careers/jobsearch" element={<Jobsearch />} />
                 <Route path="*" element={<NoMatch />} />
             </Routes>
             {/* <Footer/> */}
