@@ -4,6 +4,7 @@ import { useDataContext } from '../../context/DataContext';
 import NoMatch from '../../pages/NoMatch';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import "../../css/link.css";
 
 const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citation, citationAuthor }) => {
     const params = useParams();
@@ -20,19 +21,20 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
 
 
     useGSAP(() => {
-        var tlNews = new gsap.timeline({paused: true});
+        var tlNews = new gsap.timeline({ paused: true });
 
+        tlNews.to("#news-item-header-3", { text: { value: "<- Go back " }, duration: .4, ease: "none" }, ">")
         tlNews.to("#news-item-header-2", { text: { value: "News Article" }, duration: .4, ease: "none" }, ">")
         tlNews.to("#news-item-header-1", { text: { value: articleTitle }, duration: 1, ease: "none" })
         tlNews.to("#news-item-date", { text: { value: articleDate }, duration: .4, ease: "none" }, ">")
-        tlNews.fromTo(".news-full-image > img", { opacity: 0, scale: 1 }, { opacity:1, scale: 1.05, duration: .5, ease: "bounce"})
+        tlNews.fromTo(".news-full-image > img", { opacity: 0, scale: 1 }, { opacity: 1, scale: 1.05, duration: .5, ease: "bounce" })
         tlNews.to(".news-citation", { text: { value: `“${articleCitation}”` }, duration: 1.5, ease: "none" }, ">")
         tlNews.to(".news-description > i", { text: { value: `- ${articleCitationAuthor}` }, duration: .8, ease: "none" }, ">")
 
 
-        tlNews.fromTo(".news-description-content", { opacity: 0 }, { opacity:1, duration: 1}, ">")
+        tlNews.fromTo(".news-description-content", { opacity: 0 }, { opacity: 1, duration: 1 }, ">")
 
-       
+
         var articles = gsap.utils.toArray('.news-article-content');
 
         articles.forEach((article, index) => {
@@ -62,7 +64,17 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
             {isDetailPage ? (
                 <div>
                     {/* To-do: Ajouter flèche retour arrière qui s'affiche dynamiquement */}
-                    <h2 className='espace top bot-1' id='news-item-header-2'> </h2>
+                    <div className='flex row espace top bot-1'>
+                        <div className='flex split-2'>
+                            <Link to="/newsroom" className='basic-link'>
+                                <h2 id='news-item-header-3'> </h2>
+                            </Link>
+                        </div>
+                        <div className='flex split-2 end'>
+                            <h2 id='news-item-header-2'> </h2>
+                        </div>
+                    </div>
+
                     <h1 className='very-very-large' id='news-item-header-1'> </h1>
                     <p className='espace top-1 bot' id='news-item-date'> </p>
                     <figure className='news-full-image'>
@@ -78,7 +90,13 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
                                     <p>{item.desc}</p>
                                 </div>
                             ))}
+
+                            <Link to="/newsroom" className='basic-link flex end espace top'>
+                                <h2>~$ cd .. # Go back</h2>
+                            </Link>
+
                         </div>
+
                     </div>
                 </div>
             ) : (
