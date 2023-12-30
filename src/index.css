@@ -160,6 +160,10 @@ a.title:hover {
   flex-direction: row;
 }
 
+.flex.gap-1 {
+  gap: 10px;
+}
+
 .end {
   justify-content: flex-end;
 }
@@ -279,4 +283,32 @@ ul {
 
 .pad-5 {
   padding: 50px;
+}
+
+/* Radius : */
+.radius-8 {
+  border-radius: 8px;
+}
+
+/* Select  */
+
+select {
+  border-right: 15px solid var(--cyber-silver);
+  outline: 1px solid var(--arasaka-black);
+  background-color: var(--cyber-silver);
+}
+
+/* Flex item */
+
+.item.centered {
+  align-self: center;
+}
+
+.item.end {
+  margin-left: auto;
+}
+
+/* Text  */
+.underline {
+  text-decoration: underline;
 }

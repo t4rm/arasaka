@@ -8,7 +8,7 @@ import About from './About';
 import Location from './Location';
 import News from './News';
 import Careers from './Careers';
-import Jobsearch from './careers/Jobsearch';
+import Jobsearch from './careers/Search';
 import NewsItem from "../components/secondary/NewsItem";
 import NoMatch from './NoMatch';
 import "../css/layout.css"
@@ -23,20 +23,20 @@ const Layout = () => {
 
         // Home :
         if (location.pathname === '/') {
-        data["tl"].play();
+            data["tl"].play();
         } else data["tl"].play(7);
-        
+
         // Locations :
         if (location.pathname === '/location') {
             data["tlLoca"].resume();
         } else data["tlLoca"].pause(); // Prevent our timeline from going further while the user isn't on the right page.
-        
+
         if (location.pathname === '/newsroom') {
             data["tlNews"].resume();
         } else data["tlNews"].pause(); // Prevent our timeline from going further while the user isn't on the right page.
-    
-    
-    }, [location, data ]);
+
+
+    }, [location, data]);
 
     // if (loading)
     //     return (
@@ -52,8 +52,8 @@ const Layout = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/location" element={<Location />} />
                 <Route path="/newsroom" element={<News />} />
-                <Route path="/news/article/:id" element={<NewsItem/>} />
-                <Route path="/news/press/:id" element={<PressItem/>} />
+                <Route path="/news/article/:id" element={<NewsItem />} />
+                <Route path="/news/press/:id" element={<PressItem />} />
                 <Route path="/careers" element={<Careers />} />
                 <Route path="/careers/jobsearch" element={<Jobsearch />} />
                 <Route path="*" element={<NoMatch />} />

@@ -1,0 +1,340 @@
+{
+    "careers": [
+        {
+            "jobId": "101",
+            "title": "Cybersecurity Analyst",
+            "department": "Cybersecurity",
+            "location": "Tokyo, Japan",
+            "description": "Responsible for protecting information systems from cyber threats, identifying vulnerabilities, and managing security technologies.",
+            "requirements": [
+                "Bachelor's degree in Computer Science or related field.",
+                "Minimum 3 years of experience in cybersecurity.",
+                "Strong knowledge of firewalls, encryption, and intrusion detection systems."
+            ]
+        },
+        {
+            "jobId": "102",
+            "title": "AI Research Scientist",
+            "department": "Artificial Intelligence",
+            "location": "San Francisco, USA",
+            "description": "Developing and advancing AI technologies, focusing on machine learning, neural networks, and cognitive computing.",
+            "requirements": [
+                "PhD in Computer Science, AI, or related field.",
+                "Proven track record of research in AI and machine learning.",
+                "Experience with Python, TensorFlow, and other AI tools and frameworks."
+            ]
+        },
+        {
+            "jobId": "103",
+            "title": "Urban Infrastructure Engineer",
+            "department": "Urban Development",
+            "location": "New York, USA",
+            "description": "Designing and implementing smart city solutions, focusing on sustainability, efficiency, and integration of advanced technologies.",
+            "requirements": [
+                "Bachelor’s degree in Civil Engineering or Urban Planning.",
+                "Experience in urban infrastructure projects, smart city technologies.",
+                "Strong analytical and project management skills."
+            ]
+        },
+        {
+            "jobId": "104",
+            "title": "Quantum Computing Specialist",
+            "department": "Advanced Computing",
+            "location": "Berlin, Germany",
+            "description": "Working on the forefront of quantum computing, developing algorithms and applications for next-generation computing systems.",
+            "requirements": [
+                "Master's degree in Computer Science, Physics, or related field.",
+                "Experience in quantum computing or related research.",
+                "Proficient in programming languages like Q#, Python, and C++."
+            ]
+        },
+        {
+            "jobId": "105",
+            "title": "Cybernetic Technician",
+            "department": "Cybernetics",
+            "location": "Tokyo, Japan",
+            "description": "Installation, maintenance, and repair of cybernetic implants and devices, ensuring they meet Arasaka's high-quality standards.",
+            "requirements": [
+                "Degree in Biomedical Engineering, Electronic Engineering, or related field.",
+                "Experience with cybernetic or bionic technology.",
+                "Excellent problem-solving and technical skills."
+            ]
+        },
+        {
+            "jobId": "106",
+            "title": "Virtual Reality Interface Designer",
+            "department": "VR Development",
+            "location": "Los Angeles, USA",
+            "description": "Designing and developing immersive VR environments for training and simulation, utilizing cutting-edge VR technology and user interface design principles.",
+            "requirements": [
+                "Bachelor's degree in Graphic Design, Computer Science, or related field.",
+                "Experience with VR platforms and 3D modeling tools.",
+                "Strong portfolio showcasing VR design skills."
+            ]
+        },
+        {
+            "jobId": "107",
+            "title": "Ethical Hacker",
+            "department": "Information Security",
+            "location": "London, UK",
+            "description": "Performing penetration testing and vulnerability assessments on Arasaka's digital infrastructure, ensuring the highest level of security against cyber threats.",
+            "requirements": [
+                "Certification in ethical hacking (CEH, OSCP, or equivalent).",
+                "Proven experience in penetration testing and cybersecurity.",
+                "In-depth knowledge of network security protocols and hacking techniques."
+            ]
+        },
+        {
+            "jobId": "108",
+            "title": "Neuro-Interface Programmer",
+            "department": "Neurotechnology",
+            "location": "Shanghai, China",
+            "description": "Developing and programming advanced neuro-interfaces, contributing to innovations in brain-computer interface technologies.",
+            "requirements": [
+                "Master's degree in Neuroscience, Computer Science, or related field.",
+                "Experience with neural networks and brain-computer interfacing.",
+                "Proficiency in programming languages like Python, R, and MATLAB."
+            ]
+        },
+        {
+            "jobId": "109",
+            "title": "Drone Surveillance Operator",
+            "department": "Security Operations",
+            "location": "Dubai, UAE",
+            "description": "Operating and maintaining a fleet of high-tech surveillance drones for security and reconnaissance missions.",
+            "requirements": [
+                "Diploma in Electronics, Robotics, or related field.",
+                "Experience in drone operation and maintenance.",
+                "Ability to work in high-pressure, security-sensitive environments."
+            ]
+        },
+        {
+            "jobId": "110",
+            "title": "Space Operations Director",
+            "department": "Space Exploration",
+            "location": "Tokyo, Japan",
+            "description": "Overseeing operations of Arasaka's orbital facilities and space missions, coordinating with international space agencies and private partners.",
+            "requirements": [
+                "Degree in Aerospace Engineering, Astrophysics, or related field.",
+                "Significant experience in space operations and management.",
+                "Strong leadership skills and ability to manage interdisciplinary teams."
+            ]
+        },
+        {
+            "jobId": "111",
+            "title": "Biotech Research Scientist",
+            "department": "Biotechnology",
+            "location": "Berlin, Germany",
+            "description": "Conducting cutting-edge research in biotechnology, focusing on gene editing, regenerative medicine, and synthetic biology.",
+            "requirements": [
+                "PhD in Biotechnology, Molecular Biology, or related field.",
+                "Research experience in gene editing technologies and biotech innovations.",
+                "Ability to work in a highly collaborative research environment."
+            ]
+        },
+        {
+            "jobId": "112",
+            "title": "Cryptocurrency Analyst",
+            "department": "Financial Technology",
+            "location": "Zurich, Switzerland",
+            "description": "Analyzing market trends in cryptocurrency, developing strategies for blockchain investments and digital asset management.",
+            "requirements": [
+                "Bachelor's degree in Finance, Economics, or related field.",
+                "Strong understanding of cryptocurrency markets and blockchain technology.",
+                "Experience with financial modeling and data analysis."
+            ]
+        },
+        {
+            "jobId": "113",
+            "title": "Advanced Materials Scientist",
+            "department": "Research and Development",
+            "location": "Seoul, South Korea",
+            "description": "Developing new materials with enhanced properties for use in military, aerospace, and consumer electronics applications.",
+            "requirements": [
+                "PhD in Materials Science, Chemistry, or related field.",
+                "Expertise in nanotechnology, polymer science, or composite materials.",
+                "Proven track record of innovative research in advanced materials."
+            ]
+        },
+        {
+            "jobId": "114",
+            "title": "Corporate Espionage Agent",
+            "department": "Intelligence Operations",
+            "location": "Moscow, Russia",
+            "description": "Conducting covert operations to gather intelligence and protect Arasaka's corporate interests against competitors.",
+            "requirements": [
+                "Background in intelligence, military, or law enforcement.",
+                "Skilled in surveillance, data extraction, and covert operations.",
+                "High level of discretion and adherence to ethical guidelines."
+            ]
+        },
+        {
+            "jobId": "115",
+            "title": "Exoskeleton Engineer",
+            "department": "Mechatronics",
+            "location": "Munich, Germany",
+            "description": "Designing and developing advanced exoskeleton systems for industrial, military, and medical applications.",
+            "requirements": [
+                "Master's degree in Mechanical Engineering, Robotics, or related field.",
+                "Experience in designing wearable robotic systems.",
+                "Proficiency in CAD software and knowledge of biomechanics."
+            ]
+        },
+        {
+            "jobId": "116",
+            "title": "Urban Drone Traffic Controller",
+            "department": "Urban Air Mobility",
+            "location": "New York, USA",
+            "description": "Managing and monitoring drone traffic in urban airspace, ensuring safe and efficient operation of delivery and surveillance drones.",
+            "requirements": [
+                "Bachelor’s degree in Aviation, Aerospace Engineering, or related field.",
+                "Knowledge of UAV systems and air traffic control protocols.",
+                "Strong decision-making and communication skills."
+            ]
+        },
+        {
+            "jobId": "117",
+            "title": "Holographic Interface Designer",
+            "department": "Interactive Media",
+            "location": "Los Angeles, USA",
+            "description": "Creating innovative holographic interfaces and experiences for entertainment, advertising, and educational applications.",
+            "requirements": [
+                "Degree in Graphic Design, Interaction Design, or related field.",
+                "Experience with 3D modeling and animation, AR/VR technologies.",
+                "Strong portfolio showcasing holographic and interactive design work."
+            ]
+        },
+        {
+            "jobId": "118",
+            "title": "Nano-Technology Engineer",
+            "department": "NanoTech Research",
+            "location": "Singapore",
+            "description": "Developing and implementing nanotechnology solutions for use in electronics, healthcare, and material sciences.",
+            "requirements": [
+                "PhD in Nanotechnology, Physics, or related field.",
+                "Experience in nanofabrication and nanomaterials.",
+                "Strong analytical and problem-solving skills."
+            ]
+        },
+        {
+            "jobId": "119",
+            "title": "Underwater Systems Specialist",
+            "department": "Marine Operations",
+            "location": "Sydney, Australia",
+            "description": "Designing and maintaining advanced underwater vehicles and systems for exploration and security purposes.",
+            "requirements": [
+                "Bachelor’s degree in Marine Engineering or Oceanography.",
+                "Experience with underwater robotics and sonar technology.",
+                "Ability to work in challenging and remote marine environments."
+            ]
+        },
+        {
+            "jobId": "120",
+            "title": "Augmented Reality Developer",
+            "department": "AR Development",
+            "location": "Toronto, Canada",
+            "description": "Creating cutting-edge augmented reality applications for commercial, educational, and entertainment purposes.",
+            "requirements": [
+                "Bachelor's degree in Computer Science or related field.",
+                "Strong experience with AR platforms and 3D programming.",
+                "Creative thinker with a portfolio of AR projects."
+            ]
+        },
+        {
+            "jobId": "121",
+            "title": "Anti-Hacking Systems Analyst",
+            "department": "Cyber Defense",
+            "location": "Berlin, Germany",
+            "description": "Developing and implementing strategies to counteract and prevent hacking attempts on Arasaka’s networks and systems.",
+            "requirements": [
+                "Bachelor's degree in IT Security or related field.",
+                "Proven experience in anti-hacking techniques and cybersecurity.",
+                "Strong knowledge of network infrastructure and security protocols."
+            ]
+        },
+        {
+            "jobId": "122",
+            "title": "Futuristic City Planner",
+            "department": "Urban Development",
+            "location": "Dubai, UAE",
+            "description": "Planning and designing sustainable, high-tech cities with a focus on innovation, efficiency, and quality of life.",
+            "requirements": [
+                "Master’s degree in Urban Planning or Architecture.",
+                "Experience in futuristic or smart city projects.",
+                "Visionary thinking with strong project management skills."
+            ]
+        },
+        {
+            "jobId": "123",
+            "title": "Off-World Colonization Expert",
+            "department": "Space Exploration",
+            "location": "Arasaka Space Station",
+            "description": "Leading projects focused on the colonization of other planets and moons, including habitat design, life support systems, and sustainable development.",
+            "requirements": [
+                "Advanced degree in Aerospace Engineering, Astrobiology, or related field.",
+                "Experience in space habitat design and off-world living conditions.",
+                "Strong leadership and adaptability to extreme environments."
+            ]
+        },
+        {
+            "jobId": "124",
+            "title": "Cybersecurity Threat Analyst",
+            "department": "Information Security",
+            "location": "Night City, USA",
+            "description": "Analyzing and responding to cybersecurity threats in Night City's dynamic urban landscape.",
+            "requirements": [
+                "Bachelor's degree in IT Security or related field.",
+                "Experience in urban cybersecurity and threat analysis.",
+                "Familiarity with advanced security protocols and systems."
+            ]
+        },
+        {
+            "jobId": "125",
+            "title": "Urban Drone Coordinator",
+            "department": "Urban Air Mobility",
+            "location": "Night City, USA",
+            "description": "Coordinating and managing drone operations for surveillance and delivery in Night City.",
+            "requirements": [
+                "Degree in Aeronautics or Robotics.",
+                "Experience in UAV or drone traffic management.",
+                "Strong organizational and communication skills."
+            ]
+        },
+        {
+            "jobId": "126",
+            "title": "Neural Network Programmer",
+            "department": "Neurotechnology",
+            "location": "Night City, USA",
+            "description": "Developing innovative neural network solutions for cybernetic enhancements and interfaces.",
+            "requirements": [
+                "Bachelor's in Computer Science, AI, or related field.",
+                "Expertise in neural networks and machine learning.",
+                "Experience in neurotechnology and cybernetics."
+            ]
+        },
+        {
+            "jobId": "127",
+            "title": "AR Urban Experience Designer",
+            "department": "AR Development",
+            "location": "Night City, USA",
+            "description": "Designing state-of-the-art augmented reality experiences for urban environments.",
+            "requirements": [
+                "Degree in Graphic Design, UX/UI, or related field.",
+                "Proven experience in AR development and design.",
+                "Creative thinking and proficiency in AR software."
+            ]
+        },
+        {
+            "jobId": "128",
+            "title": "Biotech Research Scientist",
+            "department": "Biotechnology",
+            "location": "Night City, USA",
+            "description": "Leading biotechnological research initiatives with a focus on cybernetic augmentation.",
+            "requirements": [
+                "PhD in Biotechnology, Bioengineering, or related field.",
+                "Experience in regenerative medicine and cybernetics.",
+                "Innovative thinker with a record of published research."
+            ]
+        }
+    ]
+}

@@ -22,3 +22,8 @@
 .benefits-list>li+li {
     border-top: 1px solid white;
 }
+
+.job-list>li {
+    border-top: 1px solid white;
+    padding: 30px 0 30px 0;
+}
