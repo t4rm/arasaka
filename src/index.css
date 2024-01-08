@@ -32,9 +32,7 @@ code {
     monospace;
 }
 
-html {
-  overflow-x: hidden;
-}
+html {}
 
 a {
   color: var(--cyber-silver);
@@ -311,4 +309,22 @@ select {
 /* Text  */
 .underline {
   text-decoration: underline;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 740px) {
+
+  .mobile-hidden {
+    display: none !important;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .tablet-hidden {
+    display: none !important;
+  }
+
 }

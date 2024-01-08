@@ -27,7 +27,9 @@ const Main = () => {
         data["tl"].to("#arasaka-welcome-paragraph", { text: { value: arasakaWelcomeText }, duration: 3, ease: "none" }, "<")
         data["tl"].fromTo("#aside-aboutus-link", { opacity: 0 }, { opacity: 0.9, duration: 1, ease: "power1.out" }, ">")
 
+
         // Show when scrolled :
+        data["tlSecu"].fromTo(".section-container", { opacity: 0 }, { opacity: 1 }, 1)
 
         data["tlSecu"].fromTo("#security-h3", { opacity: 0 }, {
             duration: 2.5,
@@ -60,7 +62,7 @@ const Main = () => {
                     </div>
                 </aside>
             </div>
-            <section>
+            <section className='section-container'>
                 <div className='section-title reveal'>
                     <div className='stairs-disposition'>
                         <h2 id='security-h2' className='very-very-large'>ARASAKA SECURITY SOLUTIONS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h2>
@@ -70,7 +72,7 @@ const Main = () => {
                         <h3 className='very-large'>&&nbsp;&nbsp;</h3>
                         <h3 className='very-large'>DIGITAL</h3>
                     </div>
-                    <div>
+                    <div className='mobile-hidden'>
                         <br /><br /><br /><br /><br /><br /><br /><span className='security-annotation'></span>
                     </div>
                 </div>

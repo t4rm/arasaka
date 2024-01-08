@@ -1,6 +1,7 @@
 main {
     height: fit-content;
 }
+
 .main-container {
     display: flex;
     flex-direction: row;
@@ -19,6 +20,11 @@ figure {
     position: relative;
 }
 
+.logo-container>figure>img,
+.section-container-3d>img {
+    width: 100%;
+}
+
 figcaption {
     position: absolute;
     inset: 0;
@@ -32,8 +38,8 @@ figcaption {
 
 .aside-aboutus {
     position: absolute;
-    bottom: -200px;
-    right: -30px;
+    right: 30px;
+    top: 190px;
 }
 
 .section-content {
@@ -42,7 +48,29 @@ figcaption {
     margin-top: 50px;
 }
 
-.section-container-3d > img {
+.section-container-3d>img {
     max-width: 800px;
     height: auto;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    aside {
+        position: initial;
+        margin-bottom: 50px;
+
+    }
+
+
+    .aside-aboutus {
+        position: initial;
+        margin: auto;
+        width: fit-content;
+        margin-top: 75px;
+    }
+
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../../css/Header.css";
 import gsap from "gsap";
 import { CustomEase } from "gsap/CustomEase";
@@ -10,6 +10,7 @@ import { getRandomFloat } from "../../utils/functions";
 
 const Header = () => {
     const { data } = useDataContext();
+    const [showNavbar, setShowNavbar] = useState(false);
     gsap.registerPlugin(CustomEase, TextPlugin)
 
     useGSAP(() => {
@@ -38,10 +39,15 @@ const Header = () => {
 
     });
 
+    const handleShowNavbar = () => {
+        setShowNavbar(!showNavbar);
+    };
+
     return (
         <header>
             <Link to="/"><img src='/assets/images/arasaka-logo.png' className='header-logo' alt='Arasaka Logo (Index)' /></Link>
-            <div className='header-nav-container'>
+            <Link className='mobile-menu large' onClick={handleShowNavbar}>{showNavbar ? "Close" : "Menu"}</Link>
+            <div className={`header-nav-container ${showNavbar ? "active" : ""}`}>
                 <nav className='header-nav'>
                     <ul>
                         <li><Link id="about" to="/about"></Link></li>
@@ -50,9 +56,10 @@ const Header = () => {
                         <li><Link id="science" to="/science"></Link></li>
                     </ul>
                 </nav>
+                <hr className='mobile-menu' />
                 <nav className='header-nav secondary'>
                     <ul>
-                        <li className='bourse-container'>
+                        <li className='bourse-container tablet-hidden'>
                             <span className='bourse-name'></span><span className='bourse-value'></span><span className='bourse-fluctuation'></span>
                         </li>
                         <li><Link id="investors" to="/investors"></Link></li>
