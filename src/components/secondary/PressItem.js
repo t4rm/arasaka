@@ -20,13 +20,14 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
     useGSAP(() => {
         var tlNews = new gsap.timeline({ paused: true });
 
-        tlNews.fromTo(".news-full-image > img", { opacity: 0, scale: 1 }, { opacity:1, scale: 1.05, duration: 1, ease: "bounce"})
+        tlNews.fromTo(".news-full-image > img", { opacity: 0, scale: 1 }, { opacity: 1, scale: 1.05, duration: 1, ease: "bounce" })
         tlNews.to("#press-item-header-2", { text: { value: articleTitle }, duration: .8, ease: "none" }, ">")
         tlNews.to("#press-hr", { width: "100%", duration: .8 }, "<")
         tlNews.to(".press-description", { text: { value: articleDescription }, duration: 3, ease: "none" })
         tlNews.to("#press-about-us", { text: { value: "ABOUT ARASAKA" }, duration: 1, ease: "none" })
         tlNews.to("#press-about-us-description", { text: { value: aboutArasaka }, duration: 3, ease: "none" })
-        tlNews.to(".small", { text: { value: contactPress }, duration: 2, ease: "none" })
+        tlNews.to("#small-1", { text: { value: contactPress }, duration: 2, ease: "none" })
+        tlNews.to("#small-2", { text: { value: articleDate }, duration: 2, ease: "none" })
 
         tlNews.play();
     });
@@ -42,7 +43,6 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
 
 
 
-    {/* To-do: Ajouter flèche retour arrière qui s'affiche dynamiquement */ }
     return (
         <div className='news-item'>
             {isDetailPage ? (
@@ -51,14 +51,15 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
                         <img src="/assets/images/news/arasaka-press.png" alt='Press cover' />
                     </figure>
                     <div className='press-content'>
-                        <h2 className='espace top bot-1' id='press-item-header-2'></h2>
+                        <h2 className='espace top bot-1' id='press-item-header-2'> </h2>
                         {/* PDF LOGO HERE */}
                         <hr id='press-hr' className='no-width' />
                         <p className='press-description espace top-1'></p>
-                        <h2 id='press-about-us' className='espace top-1 bot-1'></h2>
+                        <h2 id='press-about-us' className='espace top-1 bot-1'> </h2>
                         <p id='press-about-us-description' className='espace bot-1'></p>
                         <footer>
-                            <p className='small'></p>
+                            <p className='small' id='small-1'></p>
+                            <p className='small' id='small-2'></p>
                         </footer>
                     </div>
                 </div>
