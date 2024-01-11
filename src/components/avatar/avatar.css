@@ -1,0 +1,26 @@
+.avatar-container {
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    width: 364px;
+    height: 450px;
+    position: relative;
+}
+
+.avatar-image {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.avatar-image.sniper {
+    left: -36px !important;
+}
+
+.avatar-code {
+    width: fit-content;
+}
+
+.avatar-layout-container {
+    margin-top: 100px;
+}

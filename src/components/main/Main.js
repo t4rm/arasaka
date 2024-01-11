@@ -8,6 +8,8 @@ import { useDataContext } from '../../context/DataContext';
 import { useGSAP } from "@gsap/react";
 import "../../css/loading.css";
 import { Link } from 'react-router-dom';
+import Frame from '../frame/Frame';
+import AvatarLayout from "../avatar/AvatarLayout";
 
 const Main = () => {
     const { data } = useDataContext();
@@ -81,9 +83,11 @@ const Main = () => {
                         <img src="./assets/images/arasaka-smasher.png" alt="Adam Smasher - Security officer" />
                     </figure>
                     <div>
+                        <Frame text={"CUTTING-EDGE SECURITY"} />
                         <p>Arasaka Security Solutions, a global force in advanced protection, is epitomized by the legendary Adam Smasher, a fusion of human resilience and cybernetic prowess. Our world-class security extends from cyberspace to physical realms, offering an unyielding shield against the uncertainties of a rapidly evolving world. With Arasaka, experience security redefined.</p>
                     </div>
                 </div>
+                <AvatarLayout />
             </section>
 
 
