@@ -13,6 +13,10 @@
     left: 0;
 }
 
+.avatar-text {
+    width: 365px;
+}
+
 .avatar-image.sniper {
     left: -36px !important;
 }
@@ -23,4 +27,35 @@
 
 .avatar-layout-container {
     margin-top: 100px;
+    width: 100%;
+    justify-items: center;
+}
+
+.avatar-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    justify-items: center;
+}
+
+/* Responsiveness */
+
+
+@media screen and (max-width: 1280px) {
+
+    .avatar-grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .avatar-grid {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: auto;
+    }
+
 }

@@ -3,7 +3,7 @@ import "./avatar.css";
 import Avatar from './Avatar';
 import { Link } from 'react-router-dom';
 
-const AvatarLayout = ({ text }) => {
+const AvatarLayout = () => {
     const avatars = [
         { codename: "SHD-B1F", skill: "RESCUE - PROTECTION", speciality: "SHIELDING, MASS SHOOTING HANDLING", price: "12500", image: "/assets/images/avatars/arasaka-soldier.png" },
         { codename: "SHD-ADM", skill: "SECURITY - PROTECTION", speciality: "QUICK & SECURE EXFILTRATION", price: "14500", image: "/assets/images/avatars/arasaka-smasher-soldier-2.png" },
@@ -15,7 +15,7 @@ const AvatarLayout = ({ text }) => {
 
     return (
         <div className='avatar-layout-container' >
-            <div className='grid' style={{ gridTemplateColumns: "1fr 1fr 1fr", gap: "50px" }}>
+            <div className='avatar-grid'>
                 {avatars.map((avatar) => {
                     return Avatar(avatar)
                 })}
