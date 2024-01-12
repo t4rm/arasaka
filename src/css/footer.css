@@ -1,0 +1,28 @@
+footer {
+    margin-top: 50px;
+    width: 100%;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 25px;
+    width: 30%;
+}
+
+.footer-credits {
+    font-size: 13px;
+    color: var(--corporate-grey);
+}
+
+@media screen and (max-width: 750px) {
+    .footer-links {
+        font-size: 17px;
+    }
+}

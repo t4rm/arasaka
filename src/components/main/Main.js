@@ -87,7 +87,15 @@ const Main = () => {
                         <p>Arasaka Security Solutions, a global force in advanced protection, is epitomized by the legendary Adam Smasher, a fusion of human resilience and cybernetic prowess. Our world-class security extends from cyberspace to physical realms, offering an unyielding shield against the uncertainties of a rapidly evolving world. With Arasaka, experience security redefined.</p>
                     </div>
                 </div>
-                <AvatarLayout />
+                <section>
+                    <div className='reveal very-very-large' style={{ width: "fit-content", marginLeft: "auto" }}>
+                        {/* Des agents  */}
+                        <p style={{ textIndent: "50px" }}>Meet Arasaka's Elite</p>
+                        <p className='title'><b>Virtuoso Guardians</b></p>
+                        <p style={{ textIndent: "100px" }}>of Security</p>
+                    </div>
+                    <AvatarLayout />
+                </section>
             </section>
 
 

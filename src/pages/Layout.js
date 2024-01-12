@@ -3,6 +3,7 @@ import Header from "../components/main/Header";
 import Background from "../components/main/Background";
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Home';
+import Footer from "../components/main/Footer";
 // import Loading from './Loading';
 import About from './About';
 import Location from './Location';
@@ -58,7 +59,7 @@ const Layout = () => {
                 <Route path="/careers/jobsearch" element={<Jobsearch />} />
                 <Route path="*" element={<NoMatch />} />
             </Routes>
-            {/* <Footer/> */}
+            <Footer />
         </div>
     );
 }
