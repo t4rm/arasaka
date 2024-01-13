@@ -3,10 +3,11 @@ import "./avatar.css";
 import Avatar from './Avatar';
 import { Link } from 'react-router-dom';
 import { useHorizontalScroll } from "../scroll/useHorizontalScroll";
+import useCheckMobileScreen from "../mobile/useCheckMobileScreen";
 
 const AvatarLayout = () => {
     const scrollRef = useHorizontalScroll();
-
+    const isMobile = useCheckMobileScreen();
     const avatars = [
         { codename: "SHD-B1F", skill: "RESCUE - PROTECTION", speciality: "SHIELDING, EMERGENCY", price: "12500", image: "/assets/images/avatars/arasaka-soldier.png" },
         { codename: "SHD-ADM", skill: "SECURITY - PROTECTION", speciality: "QUICK & SECURE EXFILTRATION", price: "14500", image: "/assets/images/avatars/arasaka-smasher-soldier-2.png" },
@@ -18,7 +19,8 @@ const AvatarLayout = () => {
 
     return (
         <div className='avatar-layout-container' >
-            <div ref={scrollRef} className='scroll-x' style={{ height: "100%" }}>
+            {console.log(isMobile)}
+            <div ref={isMobile ? scrollRef : null} className='scroll-x' style={{ height: "100%" }}>
                 <div className='avatar-grid'>
                     {avatars.map((avatar) => {
                         return Avatar(avatar)
