@@ -8,10 +8,11 @@ const DataContext = createContext();
 export const DataProvider = ({ children }) => {
 
     gsap.registerPlugin(ScrollTrigger);
-    
-    var tl = new gsap.timeline({paused: true});
-    var tlLoca = new gsap.timeline({paused: true});
-    var tlNews = new gsap.timeline({paused: true});
+
+    var tl = new gsap.timeline({ paused: true });
+    var tlLoca = new gsap.timeline({ paused: true });
+    var tlNews = new gsap.timeline({ paused: true });
+    var tlCareers = new gsap.timeline({ paused: true });
     var tlScrollSecurity = gsap.timeline({
         scrollTrigger: {
             trigger: "#security-h3",
@@ -19,7 +20,7 @@ export const DataProvider = ({ children }) => {
         },
     });
 
-    const [data] = useState({tl: tl, tlLoca: tlLoca, tlNews: tlNews, tlSecu: tlScrollSecurity, locations: arasakaOfficesLocation, flashNews: flashNews, backgroundNews: backgroundNews, pressReleases: pressReleases});
+    const [data] = useState({ tl: tl, tlLoca: tlLoca, tlCareers: tlCareers, tlNews: tlNews, tlSecu: tlScrollSecurity, locations: arasakaOfficesLocation, flashNews: flashNews, backgroundNews: backgroundNews, pressReleases: pressReleases });
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {

@@ -36,6 +36,10 @@ const Layout = () => {
             data["tlNews"].resume();
         } else data["tlNews"].pause(); // Prevent our timeline from going further while the user isn't on the right page.
 
+        if (location.pathname === '/careers') {
+            data["tlCareers"].resume();
+        } else data["tlCareers"].pause(); // Prevent our timeline from going further while the user isn't on the right page.
+
 
     }, [location, data]);
 
