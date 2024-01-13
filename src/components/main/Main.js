@@ -79,9 +79,13 @@ const Main = () => {
                     </div>
                 </div>
                 <div className='section-content'>
-                    <figure className='section-container-3d'>
-                        <img src="./assets/images/arasaka-smasher.png" alt="Adam Smasher - Security officer" />
-                    </figure>
+                    <div className='section-container-3d'>
+                        <div className='overlay-black'></div>
+                        <video autoPlay={true} loop={true} playsInline={true} muted={true}>
+                            <source src="./assets/videos/avatars/arasaka-smasher-video.mp4" type="video/mp4; codecs=hvc1" />
+                            <source src="./assets/videos/avatars/arasaka-smasher-video.webm" type="video/webm" />
+                        </video>
+                    </div>
                     <div>
                         <Frame text={"CUTTING-EDGE SECURITY"} />
                         <p>Arasaka Security Solutions, a global force in advanced protection, is epitomized by the legendary Adam Smasher, a fusion of human resilience and cybernetic prowess. Our world-class security extends from cyberspace to physical realms, offering an unyielding shield against the uncertainties of a rapidly evolving world. With Arasaka, experience security redefined.</p>

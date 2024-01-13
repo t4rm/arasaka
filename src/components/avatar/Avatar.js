@@ -3,7 +3,7 @@ import "./avatar.css";
 
 const Avatar = ({ codename, skill, speciality, price, image }) => {
     return (
-        <div style={{ width: 'fit-content' }}>
+        <div style={{ width: 'fit-content' }} key={codename}>
             <div className='avatar-container'>
                 <img draggable="false" src={image} className={'avatar-image' + (codename === "SN-02" ? " sniper" : "")} alt='arasaka agent avatar' />
             </div>

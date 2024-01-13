@@ -21,7 +21,7 @@ figure {
 }
 
 .logo-container>figure>img,
-.section-container-3d>img {
+.section-container-3d>video {
     width: 100%;
 }
 
@@ -48,10 +48,30 @@ figcaption {
     margin-top: 50px;
 }
 
-.section-container-3d>img {
+.section-container-3d {
+    width: fit-content;
+    margin: auto;
+    height: 686px;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-container-3d>div {
+    height: 100%;
+    width: 100%;
+}
+
+.section-container-3d>video {
     max-width: 800px;
     height: auto;
 }
+
+.overlay-black {
+    position: absolute;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 39%, rgba(0, 0, 0, 1) 100%);
+}
+
 
 @media screen and (max-width: 1280px) {
 
@@ -73,4 +93,19 @@ figcaption {
         margin-top: 75px;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .section-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-container-3d {
+        max-height: 60vh;
+    }
+
+    .section-content>div+div {
+        margin-bottom: 50px;
+    }
 }
