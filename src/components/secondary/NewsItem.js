@@ -105,7 +105,7 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
                         <img src={thumbnail} alt={`Arasaka - News #${id}`} className='news-small-banner' />
                     </figure>
                     <h2 className='espace bot-1 top-1'>{articleTitle}</h2>
-                    <p>{articleDate}</p>
+                    <p style={{ marginBottom: "10px" }}>{articleDate}</p>
                 </Link>
             )}
         </div>

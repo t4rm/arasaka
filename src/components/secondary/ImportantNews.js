@@ -16,13 +16,13 @@ const ImportantNews = ({ id, thumbnail, title, summary, fullDescription }) => {
     return (
         <div id='news-important' className='news-important-item summary'>
             <figure>
-                <img src={thumbnail} alt={`Arasaka - News #${id}`}/>
+                <img src={thumbnail} alt={`Arasaka - News #${id}`} style={{ width: "100%" }} />
             </figure>
             <div className='flex center col'>
                 <h3 className='title'>Featured News</h3>
                 <h2>{title}</h2>
                 <p>{summary}</p>
-                <Link to={`/news/article-${id}`}/>
+                <Link to={`/news/article-${id}`} />
             </div>
         </div>
     );

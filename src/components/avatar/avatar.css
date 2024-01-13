@@ -2,19 +2,21 @@
     border: 1px solid rgba(255, 255, 255, 0.7);
     width: 364px;
     height: 450px;
+    aspect-ratio: 364/450;
     position: relative;
 }
 
 .avatar-image {
     width: auto;
     height: 500px;
+    aspect-ratio: 364/503;
     position: absolute;
     top: -50px;
     left: 0;
 }
 
 .avatar-text {
-    width: 365px;
+    width: 100%;
 }
 
 .avatar-image.sniper {
@@ -47,6 +49,7 @@
 
     .avatar-grid {
         grid-template-columns: 1fr 1fr;
+        gap: 25px;
     }
 
 }
@@ -60,7 +63,7 @@
         margin: auto;
         height: 100%;
         align-items: flex-end;
-        gap: 25px;
+        gap: 15px;
     }
 
     .scroll-x {
@@ -74,9 +77,14 @@
 
     .avatar-layout-container {
         width: 100%;
-        height: 600px;
+        height: 575px;
         margin: 5px 0 15px 0;
     }
 
+    .avatar-container,
+    .avatar-container img {
+        width: 340px;
+        height: auto;
+    }
 
 }

@@ -57,10 +57,10 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
                         <p className='press-description espace top-1'></p>
                         <h2 id='press-about-us' className='espace top-1 bot-1'> </h2>
                         <p id='press-about-us-description' className='espace bot-1'></p>
-                        <footer>
+                        <div >
                             <p className='small' id='small-1'></p>
                             <p className='small' id='small-2'></p>
-                        </footer>
+                        </div>
                     </div>
                 </div>
             ) : (
@@ -68,7 +68,7 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
                     <Link to={`/news/press/${id}`}>
                         <h2 className='espace bot-1 top-1'>{title}</h2>
                         <p>{summary}</p>
-                        <footer>{date}</footer>
+                        <div style={{ marginTop: "10px", marginBottom: "10px" }}>{date}</div>
                     </Link >
                 </div >
             )}

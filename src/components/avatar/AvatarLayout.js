@@ -10,7 +10,7 @@ const AvatarLayout = () => {
     const isMobile = useCheckMobileScreen();
     const avatars = [
         { codename: "SHD-B1F", skill: "RESCUE - PROTECTION", speciality: "SHIELDING, EMERGENCY", price: "12500", image: "/assets/images/avatars/arasaka-soldier.png" },
-        { codename: "SHD-ADM", skill: "SECURITY - PROTECTION", speciality: "QUICK & SECURE EXFILTRATION", price: "14500", image: "/assets/images/avatars/arasaka-smasher-soldier-2.png" },
+        { codename: "SHD-ADM", skill: "SECURITY - PROTECTION", speciality: "EXFILTRATION", price: "14500", image: "/assets/images/avatars/arasaka-smasher-soldier-2.png" },
         { codename: "ELI-SNI", skill: "SNIPER - DISCRECY", speciality: "EVENTS PROTECTION", price: "25000", image: "/assets/images/avatars/arasaka-elite-masked.png" },
         { codename: "GAZ-SHO", skill: "HOSTAGE RESCUE", speciality: "EXFILTRATING HOSTAGES", price: "15000", image: "/assets/images/avatars/arasaka-gaz-soldier-3.png" },
         { codename: "NET-SNI", skill: "HOUSE GUARDING - SNIPER", speciality: "HOUSE PROTECTION SILENTLY", price: "8500", image: "/assets/images/avatars/arasaka-sniper.png" },
