@@ -19,7 +19,6 @@ const AvatarLayout = () => {
 
     return (
         <div className='avatar-layout-container' >
-            {console.log(isMobile)}
             <div ref={isMobile ? scrollRef : null} className='scroll-x' style={{ height: "100%" }}>
                 <div className='avatar-grid'>
                     {avatars.map((avatar) => {
