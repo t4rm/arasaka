@@ -4,7 +4,7 @@ import Background from "../components/main/Background";
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './Home';
 import Footer from "../components/main/Footer";
-// import Loading from './Loading';
+import Loading from './Loading';
 import About from './About';
 import Location from './Location';
 import News from './News';
@@ -17,7 +17,7 @@ import { useDataContext } from '../context/DataContext';
 import PressItem from '../components/secondary/PressItem';
 
 const Layout = () => {
-    const { data } = useDataContext();
+    const { data, loading } = useDataContext();
     const location = useLocation();
 
     useEffect(() => {
@@ -43,29 +43,29 @@ const Layout = () => {
 
     }, [location, data]);
 
-    // if (loading)
-    //     return (
-    //         <Loading />
-    //     )
-    // else
-    return (
-        <div className='layout'>
-            <Header />
-            <Background />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/location" element={<Location />} />
-                <Route path="/newsroom" element={<News />} />
-                <Route path="/news/article/:id" element={<NewsItem />} />
-                <Route path="/news/press/:id" element={<PressItem />} />
-                <Route path="/careers" element={<Careers />} />
-                <Route path="/careers/jobsearch" element={<Jobsearch />} />
-                <Route path="*" element={<NoMatch />} />
-            </Routes>
-            <Footer />
-        </div>
-    );
+    if (loading)
+        return (
+            <Loading />
+        )
+    else
+        return (
+            <div className='layout'>
+                <Header />
+                <Background />
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="/location" element={<Location />} />
+                    <Route path="/newsroom" element={<News />} />
+                    <Route path="/news/article/:id" element={<NewsItem />} />
+                    <Route path="/news/press/:id" element={<PressItem />} />
+                    <Route path="/careers" element={<Careers />} />
+                    <Route path="/careers/jobsearch" element={<Jobsearch />} />
+                    <Route path="*" element={<NoMatch />} />
+                </Routes>
+                <Footer />
+            </div>
+        );
 }
 
 export default Layout;
