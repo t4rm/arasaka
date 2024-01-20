@@ -1,7 +1,6 @@
 import React from 'react';
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { useDataContext } from '../context/DataContext';
 import { TextPlugin } from "gsap/TextPlugin";
 import "../css/loading.css";
 
