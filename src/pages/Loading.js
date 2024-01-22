@@ -13,6 +13,8 @@ function Loading() {
         tl.to("#welcome", { text: { value: "WELCOME TO //:" }, duration: 1, ease: "none" }, ">")
         tl.to("#text", { text: { value: "ARASAKA ONLINE - REINVENTING THE INTRANET ~" }, duration: 3, ease: "none" }, ">")
         tl.to("#container-loading", { opacity: 0, duration: 1, ease: "none" }, ">")
+
+        tl.play();
     });
 
     return (

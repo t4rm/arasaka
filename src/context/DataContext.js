@@ -13,14 +13,9 @@ export const DataProvider = ({ children }) => {
     var tlLoca = new gsap.timeline({ paused: true });
     var tlNews = new gsap.timeline({ paused: true });
     var tlCareers = new gsap.timeline({ paused: true });
-    var tlScrollSecurity = gsap.timeline({
-        scrollTrigger: {
-            trigger: "#security-h3",
-            once: true
-        },
-    });
 
-    const [data] = useState({ tl: tl, tlLoca: tlLoca, tlCareers: tlCareers, tlNews: tlNews, tlSecu: tlScrollSecurity, locations: arasakaOfficesLocation, flashNews: flashNews, backgroundNews: backgroundNews, pressReleases: pressReleases });
+
+    const [data] = useState({ tl: tl, tlLoca: tlLoca, tlCareers: tlCareers, tlNews: tlNews, locations: arasakaOfficesLocation, flashNews: flashNews, backgroundNews: backgroundNews, pressReleases: pressReleases });
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
