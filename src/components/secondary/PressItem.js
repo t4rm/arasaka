@@ -50,7 +50,7 @@ const PressItem = ({ id, title, summary, fullDescription, date }) => {
                     <figure className='news-full-image no-over'>
                         <img src="/assets/images/news/arasaka-press.png" alt='Press cover' />
                     </figure>
-                    <div className='press-content'>
+                    <div>
                         <h2 className='espace top bot-1' id='press-item-header-2'> </h2>
                         {/* PDF LOGO HERE */}
                         <hr id='press-hr' className='no-width' />

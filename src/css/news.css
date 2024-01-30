@@ -65,11 +65,8 @@ wbr .news-editorial-section>div {
 .news-full-image {
     width: 100vw;
     height: 45vh;
-    margin: 0;
-    position: absolute;
-    left: 0;
+    margin: 100px 0 50px -19.1vw;
     overflow: hidden;
-    overflow-y: scroll;
 }
 
 .news-description {
@@ -83,11 +80,6 @@ wbr .news-editorial-section>div {
 .news-description-content {
     width: 60%;
     margin-left: auto;
-}
-
-.press-content {
-    position: relative;
-    top: 46vh;
 }
 
 
