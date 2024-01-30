@@ -73,10 +73,6 @@ wbr .news-editorial-section>div {
     opacity: 0.9;  
 }
 
-.news-description {
-    margin-top: 52vh;
-}
-
 .news-full-image>img {
     width: 100%;
     height: auto;

@@ -80,7 +80,7 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
                     <figure className='news-full-image'>
                         <img src={articleThumbnail} alt='News thumbnail' />
                     </figure>
-                    <div className='news-description'>
+                    <div className='espace top'>
                         <span className='news-citation'></span>
                         <br /><i></i>
                         <div className='news-description-content'>
