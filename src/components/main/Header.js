@@ -68,7 +68,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-
+            <div className='blurred-background'></div>
         </header>
     );
 };

@@ -121,6 +121,17 @@ header>* {
     }
 }
 
+.blurred-background {
+    backdrop-filter: blur(3px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+    height: 60px;
+}
+
 @media screen and (max-width: 740px) {
 
     .header-nav-container {

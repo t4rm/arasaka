@@ -18,7 +18,7 @@ function Loading() {
     });
 
     return (
-        <div className='flex center' id="container-loading" style={{ alignItems: "center" }}>
+        <div className='flex center' id="container-loading" style={{ alignItems: "center", height: "50vh" }}>
             <span className='very-large title' id='welcome'> </span>&nbsp;
             <span className='large' id='text'> </span>
         </div>
