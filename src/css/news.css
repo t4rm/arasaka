@@ -64,9 +64,13 @@ wbr .news-editorial-section>div {
 
 .news-full-image {
     width: 100vw;
-    height: 45vh;
-    margin: 100px 0 50px -19.1vw;
-    overflow: hidden;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    left: 50%;
+    max-height: 490px;
+    overflow: hidden;  
+    opacity: 0.9;  
 }
 
 .news-description {
@@ -75,6 +79,7 @@ wbr .news-editorial-section>div {
 
 .news-full-image>img {
     width: 100%;
+    height: auto;
 }
 
 .news-description-content {
