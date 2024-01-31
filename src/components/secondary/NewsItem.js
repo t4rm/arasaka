@@ -63,7 +63,6 @@ const NewsItem = ({ id, thumbnail, title, summary, fullDescription, date, citati
         <div className='news-item'>
             {isDetailPage ? (
                 <div>
-                    {/* To-do: Ajouter flèche retour arrière qui s'affiche dynamiquement */}
                     <div className='flex row espace top bot-1'>
                         <div className='flex split-2'>
                             <Link to="/newsroom" className='basic-link'>
