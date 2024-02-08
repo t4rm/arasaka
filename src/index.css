@@ -187,6 +187,10 @@ a.title:hover {
   justify-content: center;
 }
 
+.t-center {
+  text-align: center;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -313,7 +317,26 @@ select {
   text-decoration: underline;
 }
 
+/* Custom Accordion */
+.accordion-custom {
+  width: fit-content;
+  margin: auto;
+  margin-top: 15px;
+}
 
+.accordion-custom>button {
+  font-size: min(calc(1rem + ((1vw - 7.68px) * 0.6944)), 20px);
+  justify-content: center !important;
+  width: min(330px, 40vw);
+}
+
+.accordion-custom>button>span {
+  display: none;
+}
+
+.accordion-hr-none+hr {
+  display: none;
+}
 
 /* Responsiveness */
 
