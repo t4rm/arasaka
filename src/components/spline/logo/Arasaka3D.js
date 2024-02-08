@@ -1,11 +1,9 @@
 import React, { Suspense, useEffect, useState } from 'react';
 import gsap from "gsap";
-import { CustomEase } from "gsap/CustomEase";
 
 const Spline = React.lazy(() => import('@splinetool/react-spline'));
 const Arasaka3D = () => {
     const [loaded, setLoaded] = useState(false);
-    gsap.registerPlugin(CustomEase)
 
     useEffect(() => {
         if (loaded) {
